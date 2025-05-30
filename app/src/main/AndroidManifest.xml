@@ -13,10 +13,16 @@
         android:theme="@style/Theme.CharleneApplication"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ProfileActivity"
             android:exported="false" />
         <activity
             android:name=".CharleneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculatorActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CharleneApplication">
