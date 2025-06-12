@@ -40,7 +40,18 @@
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="61dp" />
 
-    <EditText
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progtram Studi" />
+
+        <Spinner
+            android:id="@+id/sprProdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
