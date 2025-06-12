@@ -31,7 +31,7 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
-        android:id="@+id/editProdi"
+        android:id="@+id/edtProdi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -50,22 +50,36 @@
         tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="106dp" />
 
-    <TextView
-        android:id="@+id/textView"
+        <EditText
+        android:id="@+id/edtNilai1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Result"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="235dp" />
+        android:hint="Nilai Mata Kuliah 1"
+        android:inputType="numberDecimal"/>
 
-    <TextView
+    <EditText
+        android:id="@+id/edtNilai2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nilai Mata Kuliah 2"
+        android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Result"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="235dp" />
+
+        <TextView
         android:id="@+id/txtResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="12pt"
-        android:text="Nama \nEmail \nProgram Studi"
+        android:text="Nama \nEmail \nProgram Studi \nIPK"
         tools:layout_editor_absoluteX="161dp"
         tools:layout_editor_absoluteY="276dp" />
 

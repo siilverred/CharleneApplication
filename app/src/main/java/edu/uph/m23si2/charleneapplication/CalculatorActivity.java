@@ -58,6 +58,7 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
     public void onClick(View v) {
         num1 = getintFromEditText(editText1);
         num2 = getintFromEditText(editText2);
+
         switch (v.getId()){
             case R.id.btnAdd:
                 textView.setText("Answer = " + (num1 + num2));
